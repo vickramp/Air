@@ -1,0 +1,212 @@
+
+
+}
+/* line 6, ../sass/authenty.scss */
+.authenty [data-animation] {
+  opacity: 0;
+}
+/* line 9, ../sass/authenty.scss */
+.authenty ul {
+  list-style-type: none;
+}
+/* line 12, ../sass/authenty.scss */
+.authenty h1, .authenty h2, .authenty h3, .authenty h4, .authenty h5, .authenty h6 {
+  font-weight: 400;
+}
+/* line 15, ../sass/authenty.scss */
+.authenty h1 {
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+/* line 19, ../sass/authenty.scss */
+.authenty a:hover {
+  text-decoration: none;
+}
+/* line 22, ../sass/authenty.scss */
+.authenty .btn {
+  border-radius: 0;
+}
+/* line 24, ../sass/authenty.scss */
+.authenty .btn:active {
+  box-shadow: none;
+  border-radius: 0px !important;
+}
+/* line 28, ../sass/authenty.scss */
+.authenty .btn:focus {
+  outline: thin dotted #fff;
+  outline-offset: 0;
+}
+
+/* line 36, ../sass/authenty.scss */
+.authenty .form-control:focus {
+  border-color: #ff7000;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 112, 0, 0.6);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 122, 0, 0.6);
+  transition: border-color 0.7s, box-shadow 0.7s;
+  -webkit-transition: border-color 0.7s, box-shadow 0.7s;
+}
+.authenty.signin-alt {
+  background-color: #1e2223;
+  color: #eaeaea;
+}
+
+/* line 199, ../sass/authenty.scss */
+.authenty.signin-alt .title {
+  margin-bottom: 50px;
+  text-align: left;
+}
+/* line 228, ../sass/authenty.scss */
+.authenty.signin-alt .normal-signin .un-wrap {
+  position: relative;
+}
+/* line 230, ../sass/authenty.scss */
+.authenty.signin-alt .normal-signin .un-wrap .fa-mobile,.authenty.signin-alt .normal-signin .un-wrap .fa-phone,.authenty.signin-alt .normal-signin .un-wrap .fa-building-o,.authenty.signin-alt .normal-signin .un-wrap .fa-user ,.authenty.signin-alt .normal-signin .un-wrap .fa-envelope ,.authenty.signin-alt .normal-signin .un-wrap .fa-key{
+  position: absolute;
+  top: 2px;
+  left: 1px;
+  color: #515561;
+  font-size: 14pt;
+  padding: 10px 14px;
+  background-color: #1C1F25;
+}
+/* line 240, ../sass/authenty.scss */
+.authenty.signin-alt .normal-signin .pw-wrap {
+  position: relative;
+}
+/* line 242, ../sass/authenty.scss */
+.authenty.signin-alt .normal-signin .pw-wrap .fa-lock {
+  position: absolute;
+  top: 2px;
+  left: 1px;
+  color: #515561;
+  font-size: 14pt;
+  padding: 10px 16px;
+  background-color: #1C1F25;
+}
+/* line 252, ../sass/authenty.scss    input typessss  */
+.da,.select-style,.authenty.signin-alt .normal-signin input[type="text"], .authenty.signin-alt .normal-signin input[type="password"] {
+  padding-left: 60px;
+  border-radius: 0;
+  border: 1px solid #7A8086;
+  margin-bottom: 20px;
+  color: #ccc;
+  background-color: #282A38;
+  height: 42px;
+}
+/* line 261, ../sass/authenty.scss */
+.authenty.signin-alt .normal-signin .signin {
+  padding: 10px 15px;
+  background-color: #3e4764;
+  border: 1px solid #7A8086;
+  color: #fff;
+  -webkit-transition: background-color 300ms linear;
+  -moz-transition: background-color 300ms linear;
+  -o-transition: background-color 300ms linear;
+  -ms-transition: background-color 300ms linear;
+  transition: background-color 300ms linear;
+}
+/* line 271, ../sass/authenty.scss */
+.authenty.signin-alt .normal-signin .signin:hover {
+  background-color: #1E2B46;
+}
+/* line 276, ../sass/authenty.scss */
+.authenty.signin-alt .horizontal-divider {
+  margin: 0 auto;
+  position: relative;
+  width: 0px;
+  top: 0;
+  background-color: #fff;
+}
+/* line 282, ../sass/authenty.scss */
+.authenty.signin-alt .horizontal-divider:before {
+  content: 'OR';
+  position: absolute;
+  top: 110px;
+  left: -30px;
+  padding: 20px;
+  font-size: 18px;
+  background: #3e4764;
+  border-radius: 50%;
+  color: #fff;
+}
+/* line 294, ../sass/authenty.scss */
+.authenty.signin-alt .sns-signin {
+  margin-top: 94px;
+}
+/* line 296, ../sass/authenty.scss */
+.authenty.signin-alt .sns-signin a {
+  margin-bottom: 22px;
+  display: block;
+  color: #fff;
+}
+
+  @media screen and (max-width: 991px) {
+  /* line 342, ../sass/authenty.scss */
+  .authenty.signin-alt .horizontal-divider:before {
+    top: 10px;
+    left: -30px;
+    padding: 20px;
+    font-size: 16px;
+  }
+
+}
+  /* line 488, ../sass/authenty.scss */
+  .authenty.signup-window .horizontal-divider {
+    width: 100%;
+    height: 1px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  /* line 493, ../sass/authenty.scss */
+  .authenty.signup-window .horizontal-divider:before {
+    content: 'OR';
+    top: -11px;
+    left: 46%;
+    padding: 0 5px;
+  }
+}
+/* line 300, ../sass/authenty.scss */
+.authenty.signin-alt .sns-signin a span {
+  margin-left: 30px;
+}
+/* line 304, ../sass/authenty.scss */
+.authenty.signin-alt .sns-signin .facebook {
+  background-color: #3e4764;
+  -webkit-transition: background-color 300ms linear;
+  -moz-transition: background-color 300ms linear;
+  -o-transition: background-color 300ms linear;
+  -ms-transition: background-color 300ms linear;
+  transition: background-color 300ms linear;
+}
+/* line 311, ../sass/authenty.scss */
+.authenty.signin-alt .sns-signin .facebook:hover {
+  background-color: #235B97;
+}
+/* line 314, ../sass/authenty.scss */
+.authenty.signin-alt .sns-signin .facebook .fa-facebook {
+  color: #505050;
+  background-color: #eaeaea;
+  padding: 15px 19px 15px 18px;
+}
+/* line 320, ../sass/authenty.scss */
+.authenty.signin-alt .sns-signin .google-plus {
+  background-color: #e66060;
+  -webkit-transition: background-color 300ms linear;
+  -moz-transition: background-color 300ms linear;
+  -o-transition: background-color 300ms linear;
+  -ms-transition: background-color 300ms linear;
+  transition: background-color 300ms linear;
+}
+/* line 327, ../sass/authenty.scss */
+.authenty.signin-alt .sns-signin a span {
+  margin-left: 30px;
+}
+.authenty.signin-alt .sns-signin .google-plus:hover {
+  background-color: #EC574B;
+}
+/* line 330, ../sass/authenty.scss */
+.authenty.signin-alt .sns-signin .google-plus .fa-google-plus {
+  color: #505050;
+  background-color: #eaeaea;
+  padding: 15px;
+}
